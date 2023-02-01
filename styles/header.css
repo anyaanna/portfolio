@@ -1,0 +1,91 @@
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+}
+
+.header {
+    height: 54px;
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo-section {
+    margin-right: 60px;
+}
+
+.logo-icon {
+    height: 48px;
+    width: 140px;
+}
+
+.navigation {
+    height: 54px;
+    color: #56509F;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.nav-element {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 44px;
+}
+
+.button-pre-school-section {
+    align-content: flex-end;
+}
+
+.button-pre-school {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FE6500;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+.contacts {
+    margin-left: 72px;
+}
+
+.phone-number-section {
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #56509F;
+
+}
+
+.phone-number {
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.phone-icon {
+    height: 14px;
+    width: 10px;
+    margin-right: 5px;
+}
+
+.adress-section {
+    font-family: 'Quicksand', sans-serif;
+    color: #56509F;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    width: 124px;
+}
